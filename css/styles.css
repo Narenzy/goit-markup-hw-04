@@ -40,7 +40,7 @@ img {
   padding-right: 15px;
   margin: auto;
   width: 1158px;
-  /* outline: 1px red solid; */
+  outline: 1px red solid;
 }
 /* #endregion */
 /* #region header */
@@ -178,10 +178,14 @@ img {
 
 /* #region hero */
 .hero {
+  background-color: #2e2f42;
+  background-image:
+    linear-gradient(rgba(46, 47, 66, 0.7)),
+    url("../images/hero_image/people-office\ 1.jpg");
+  max-width: 1440px;
   padding-top: 188px;
   padding-bottom: 188px;
   margin: 0 auto;
-  background-color: #2e2f42;
 }
 .hero .container {
   display: flex;
@@ -231,6 +235,18 @@ img {
   max-width: 1158px;
   margin: 0 auto;
 }
+
+.features-container {
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  padding: 24px 102px;
+}
+.features-icon {
+}
+
 .visually-hidden {
   position: absolute;
   width: 1px;
