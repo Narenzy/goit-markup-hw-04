@@ -525,6 +525,8 @@ img {
   background-color: #31d0aa;
 }
 .social-link {
+  width: 24px;
+  height: 24px;
 }
 .logo-footer {
   display: flex;
