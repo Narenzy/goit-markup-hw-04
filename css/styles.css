@@ -2,7 +2,7 @@
 body {
   color: #434455;
   background-color: #fff;
-  font-family: "Roboto", "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 a {
   text-decoration: none;
@@ -241,14 +241,20 @@ img {
 }
 
 .features-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: 1px solid #8e8f99;
   border-radius: 4px;
+  background-color: #f4f4fd;
+  padding: 24px 0px;
   width: 264px;
   height: 112px;
-  background-color: #f4f4fd;
-  padding: 24px 102px;
 }
 .features-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .visually-hidden {
